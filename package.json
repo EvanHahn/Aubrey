@@ -4,6 +4,15 @@
   "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
   "version": "0.0.0",
   "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "aubrey"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EvanHahn/Aubrey.git"
+  },
+  "bugs": "https://github.com/EvanHahn/Aubrey/issues",
   "scripts": {
     "test": "mocha"
   },
