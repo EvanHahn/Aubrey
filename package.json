@@ -1,0 +1,13 @@
+{
+  "name": "aubrey",
+  "description": "turn any key-value store into a powerful collection",
+  "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
