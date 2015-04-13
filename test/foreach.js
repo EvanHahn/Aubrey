@@ -41,6 +41,5 @@ describe('forEach', function () {
         expect(strings).to.contain(value);
       }, done);
     });
-
   });
 });
