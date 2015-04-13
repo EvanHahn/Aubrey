@@ -1,5 +1,1 @@
-function Aubrey(options) {
-  this._store = options.store;
-}
-
-module.exports = Aubrey;
+module.exports = { Collection: require('./lib/collection/') };
