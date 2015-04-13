@@ -22,9 +22,6 @@ describe('forEach', function () {
     this.collection.add('what the heck', err => {
       if (err) { return done(err); }
 
-      console.log(this.collection._store._data);
-      console.log();
-
       this.collection.forEach(function (value) {
         expect(value).to.equal('what the heck');
       }, done);
