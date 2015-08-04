@@ -2,7 +2,7 @@ const expect = require('expect.js');
 
 const pkg = require('../package.json');
 
-describe.only('package dot json', function () {
+describe('package dot json', function () {
   `
     name description author version main license
     keywords repository bugs

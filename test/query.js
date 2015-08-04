@@ -3,7 +3,7 @@ const expect = require('expect.js');
 const aubrey = require('..');
 const createCollection = require('./helpers/create-collection');
 
-describe('query', function () {
+describe.skip('query', function () {
   beforeEach(function (done) {
     this.collection = createCollection();
     this.query = aubrey.query(this.collection);
